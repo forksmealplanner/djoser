@@ -3,7 +3,7 @@ import warnings
 from django.conf import settings as django_settings
 from django.core.exceptions import ImproperlyConfigured
 from django.test.signals import setting_changed
-from django.utils import six
+import six
 from django.utils.functional import LazyObject
 from django.utils.module_loading import import_string
 
